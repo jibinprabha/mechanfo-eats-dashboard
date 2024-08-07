@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    background-color: #f6f9ff !important;
+    
+}
+col{
+    height: 100%;
+}
+.logo img {
+    height: 50px;
+    width: 170px !important;
+    margin-right: 6px;
+    vertical-align: middle;
+    margin-top:90px;
+
+}
+.card{
+    border: none !important;
+    border-radius: 5px;
+    box-shadow: rgba(1, 41, 112, 0.1);
+    width:400px;
+    height: 300px;
+    font-family: "Poppins", sans-serif !important;
+    border: 1px solid #ccc;
+     /* Box Shadow */
+     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #012970 !important;
+    font-family: "Poppins", sans-serif;
+}
+.login-button{
+    margin-top: 30px;
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+.card-body{
+    height: 330px !important;
+}
+.input-group{
+    width: 90% !important;
+    margin-left: 20px;
+}
+.btn-primary {
+    height: 40px;
+    width: 110px;
+}
