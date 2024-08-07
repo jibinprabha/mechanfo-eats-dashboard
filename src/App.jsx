@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     
-    <Router>
+    <Router basename='/mechanfo-eats-dashboard/'>
       <Routes>
         <Route path="/send-otp" element={<RouteWrapper><SendOtp /></RouteWrapper>} />
         <Route path="/verify-otp" element={<RouteWrapper><VerifyOtp /></RouteWrapper>} />
